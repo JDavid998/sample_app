@@ -1,0 +1,63 @@
+
+   .navbar-custom {
+     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+     border-radius: 0 0 12px 12px;
+     background: linear-gradient(90deg, #000000 0%, #5909b494 100%);
+   }
+   .navbar-brand {
+     font-weight: bold;
+     letter-spacing: 1px;
+     font-size: 1.5rem;
+     display: flex;
+     align-items: center;
+   }
+   .navbar-brand::before {
+     content: "\f135";
+     font-family: 'FontAwesome';
+     margin-right: 8px;
+     font-size: 1.3rem;
+     color: #ffc107;
+   }
+   .navbar-nav .nav-link {
+     margin-right: 0.5rem;
+     border-radius: 4px;
+     transition: background 0.2s, color 0.2s;
+   }
+   .navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+     background: #ffc107;
+     color: #232526 !important;
+   }
+   .navbar-nav .nav-item:last-child .nav-link {
+     background: #ffc107;
+     color: #232526 !important;
+     font-weight: 500;
+     margin-left: 1rem;
+     box-shadow: 0 2px 6px rgba(0,0,0,0.10);
+   }
+.footer-custom {
+  background: linear-gradient(90deg, #1a2980 0%, #26d0ce 100%);
+  color: #fff;
+  padding: 20px 0 18px 0;
+  text-align: center;
+  font-size: 1.1rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -4px 16px rgba(26,41,128,0.15);
+  margin-top: 40px;
+  border-radius: 18px 18px 0 0;
+  letter-spacing: 1px;
+  border-top: 3px solid #ffc107;
+  z-index: 10;
+}
+
+.footer-custom a {
+  color: #ffc107;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.2s, text-shadow 0.2s;
+}
+.footer-custom a:hover {
+  color: #fff;
+  text-shadow: 0 0 8px #ffc107, 0 0 2px #fff;
+}
